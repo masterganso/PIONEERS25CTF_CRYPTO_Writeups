@@ -219,6 +219,7 @@ for k in set(cand):
 python3 solver.py
 ```
 This pops up the flag Pioneers25{h3r3_c0m35_7h3_n3x7_Bruce_schneier}
+
 ---
 
 ## Takeaways
