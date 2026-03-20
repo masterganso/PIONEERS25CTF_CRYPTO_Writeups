@@ -81,8 +81,7 @@ At first glance it looks like a normal ECDSA challenge, but one family of curves
 ---
 
 ## Short Version (TL;DR)
-
-Some challenge curves are **anomalous**: they satisfy $\#E(\mathbb{F}_p)=p$ (equivalently in this setup, `q == p`).  
+Some challenge curves are **anomalous**: they satisfy $|E(\mathbb{F}_p)| = p$ (equivalently in this setup, `q == p`).  
 For anomalous curves, the elliptic-curve discrete logarithm can be solved efficiently via **Smart’s attack**.
 
 So the exploit is:
