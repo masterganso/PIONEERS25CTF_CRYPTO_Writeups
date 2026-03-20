@@ -146,9 +146,7 @@ By sending a message of `'@' * 384`, the NumPy product overflows to `0` (`np.int
 
 Therefore `k` becomes a known constant:
 
-$$
-k = h(\text{long\_to\_bytes}(0))
-$$
+$$k = h(\texttt{long\_to\_bytes}(0))$$
 
 With one oracle signature on that crafted message, recover private key:
 
